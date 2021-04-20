@@ -121,7 +121,7 @@ function ProductGrid() {
               </div>
             </div>
             <div className="tr-grid-sm-container" key={data.id}>
-              <div className="tr-col-2 tr-pl-10 tr-pr-30 tick">
+              <div className="tr-col-2 tr-pr-30 tick">
                 <ul className="desc-details">
                   <h2 className="tr-title">{data.title}</h2>
                   <hr />

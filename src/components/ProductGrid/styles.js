@@ -95,7 +95,8 @@ export const Container = styled.div`
     padding-left: 20px;
   }
   .tr-img-fluid {
-    width: 100%;
+    width: 80%;
+    margin:10%;
     min-width: 100px;
     height: 320px;
     bottom: 0;
