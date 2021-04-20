@@ -7,13 +7,13 @@ import "./NewApp.css";
 
 function NewApp(){
   return (
-    <>
+    <div className="Main">
       <Header/>
-      <Title/>
+       <Title/>
         <ProductGrid/>
         <Experience/>
       <Footer/>
-    </>
+    </div>
   );
 }
 export default NewApp;
