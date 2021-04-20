@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   padding-left: 5vw;
   padding-right: 5vw;
+  /* Common css */
+  .tr-pt-10 {
+    padding-top: 10px;
+  }
+  .tr-pt-20 {
+    padding-top: 20px;
+  }
 
   //large device css
   .tr-grid-sm-container {
@@ -96,7 +103,7 @@ export const Container = styled.div`
   }
   .tr-img-fluid {
     width: 80%;
-    margin:10%;
+    margin: 10%;
     min-width: 100px;
     height: 320px;
     bottom: 0;
@@ -104,8 +111,8 @@ export const Container = styled.div`
   .tr-pl-10 {
     padding-left: 10px;
   }
-  .tr-pr-30{
-    padding-right:30px;
+  .tr-pr-30 {
+    padding-right: 30px;
   }
   ul {
     list-style-type: none;
@@ -148,15 +155,18 @@ export const Container = styled.div`
       text-align: center;
     }
     .tr-product-btn {
-      background: linear-gradient(to bottom, #fde052, #fcb131);
-      padding: 0.2rem 1rem;
-      height: auto;
       color: #04307c;
       font-weight: bold;
-      font-size: 1.5rem;
-      width: 100%;
+      font-size: 1.2rem;
       border-radius: 50px;
       margin-top: 1rem;
+    }
+    .tr-product-text {
+      position: relative;
+      padding-left: 40px;
+      padding-top: 4px;
+      width: 100%;
+      line-height: 2rem;
     }
   }
 `;

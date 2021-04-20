@@ -110,11 +110,6 @@ function ProductGrid() {
                   />
                 </div>
                 <div className="tr-rating-text">{data.rating_text}</div>
-                <a className="tr-product-link" href="/">
-                  <button className="tr-product-btn">
-                    <span className="tr-product-text">{data.product_link}</span>
-                  </button>
-                </a>
                 <div className="tr-product-review">
                   <a href="/">{data.product_review}</a>
                 </div>
@@ -125,6 +120,13 @@ function ProductGrid() {
                 <ul className="desc-details">
                   <h2 className="tr-title">{data.title}</h2>
                   <hr />
+                  <a className="tr-product-link" href="/">
+                    <button className="tr-product-btn">
+                      <span className="tr-product-text">
+                        {data.product_link}
+                      </span>
+                    </button>
+                  </a>
                   <li className="desc-line tr-red">{data.desc_line1}</li>
                   <li className="desc-line">{data.desc_line2}</li>
                   <li className="desc-line">{data.desc_line3}</li>
@@ -132,7 +134,7 @@ function ProductGrid() {
                   <li className="desc-line">{data.desc_line5}</li>
                   <li className="desc-line">{data.desc_line6}</li>
                   <li className="desc-line">{data.desc_line7}</li>
-                  <div className="tr-blue tr-decoration">
+                  <div className="tr-blue tr-decoration tr-pt-10">
                     <a className="tr-decoration" href="/">
                       Detailed Product Info
                     </a>
@@ -159,7 +161,7 @@ function ProductGrid() {
                 <li className="desc-line">{data.desc_line5}</li>
                 <li className="desc-line">{data.desc_line6}</li>
                 <li className="desc-line">{data.desc_line7}</li>
-                <div className="tr-blue tr-decoration">
+                <div className="tr-blue tr-decoration tr-pt-20">
                   <a className="tr-decoration" href="/">
                     Detailed Product Info
                   </a>
