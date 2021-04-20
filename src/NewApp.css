@@ -1,0 +1,47 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+/* global css */
+.tr-textcenter{
+    text-align: center;
+}
+.tr-main{
+    background: #63377e;
+    color: white;
+}
+.tr-c3{
+  background-color: #eaeaea;
+}
+.tr-red{
+    color: #ff0000;
+}
+.tr-decoration{
+    text-decoration: none;
+}
+.tr-blue{
+    color: blue;
+}
+.tr-py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tr-ml-5{
+    margin:5%;
+}
+.tr-fs-2{
+    font-size: 1rem;
+}
+.tr-fs-3{
+    font-size: 1.5rem;
+}
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+@media only screen and (max-width:768px) {
+    .tr-ms-0{
+        margin:0px;
+    }
+} 
+/* end */
+ 
