@@ -3,12 +3,12 @@ function Footer() {
   return (
     <Container>
       <div className="tr-footer">
-        <div>
+        <div className="trf-desc">
           <h3>To Check Availability and Discounts</h3>
         </div>
-        <div className="trf-link">
-          <a href="/">
-            <span>Visit Amazon</span>
+        <div className="trf-space">
+          <a className="trf-link" href="/">
+            <span className="trf-link-text">Visit Amazon</span>
           </a>
         </div>
       </div>

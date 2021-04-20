@@ -11,7 +11,11 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
   }
-  .trf-link {
+  .trf-desc{
+   text-align:center;
+  }
+   .trf-space {
+    text-align: center;
     background: linear-gradient(to bottom, #fde052, #fcb131);
     padding: 15px 60px;
     border-top-left-radius: 5px;
@@ -19,7 +23,7 @@ export const Container = styled.div`
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
-  .trf-link a {
+  .trf-link {
     text-decoration: none;
     color: #04307c;
     font-size: 1.5rem;
@@ -30,18 +34,14 @@ export const Container = styled.div`
       display: flex;
       flex-flow: column;
     }
-    .trf-link {
-      background: linear-gradient(to bottom, #fde052, #fcb131);
+    .trf-space {
       padding: 5px 0px;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
     }
-    .trf-link a {
+    .trf-link-text {
       text-decoration: none;
+      text-align: center;
       color: #04307c;
-      font-size: 1rem;
+      font-size: 1.4rem;
       font-weight: bold;
     }
   }
